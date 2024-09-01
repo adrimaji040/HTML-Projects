@@ -1,0 +1,113 @@
+.divmain{
+    border-style: solid;
+    border-color:rgb(56, 118, 121);
+    width: auto;
+    height: auto;
+}
+
+h1{
+    color:rgb(54, 107, 89);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: cursive;
+    align-self: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+
+.dice{
+   width: 120px;
+   height: 120px;
+   border-radius:  10%;
+   background-color: rgb(48, 83, 129);
+   margin: 5px; 
+}
+
+.dot{
+    display:block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin:5px;
+    background-color: #ffff00;
+}
+
+.face-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.face-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.face-2 .dot:nth-child(2){
+    align-self: flex-end;
+}
+
+.face-3{
+    display:flex;
+    justify-content: space-between;
+}
+
+.face-3 .dot:nth-child(2){
+     align-self: center;
+}
+
+.face-3 .dot:nth-child(3){
+    align-self: flex-end;
+}
+
+.face-4{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.face-4 .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.face-5 {
+    display:flex;
+    justify-content:space-between;
+}
+
+.face-5 .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+}
+
+.face-5 .column:nth-child(2){
+    justify-content: center;
+}
+
+.face-6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.face-6 .column{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;     
+}
+
+
+
