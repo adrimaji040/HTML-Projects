@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+main{
+    background-image:url("images/3w.jpg");
+    background-repeat: no-repeat;
+}
+body{
+   
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+    color:cadetblue;
+    font-weight: bold;
+}
+img{
+    width: 900px;
+    border-radius: 30px;
+      
+}
+
+.image-container{ 
+    text-align: center;
+    align-content: center;
+}
+figcaption {
+    font-size: 20px;
+   background-color: rgb(176, 187, 139,0.6);
+   font-style: italic;
+   padding: 2px;
+   text-align: center;
+   border-radius: 25px;
+}
+
+.textcaption{
+    color: rgb(84, 42, 182);
+}
+p{
+    color: black;
+}
+h2{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+}
+
